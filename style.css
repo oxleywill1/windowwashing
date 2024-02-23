@@ -1,39 +1,58 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header, footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  header h1 {
-    margin: 0;
-  }
-  
-  #phone {
-    font-weight: bold;
-  }
-  
-  #intro, #specialOffer, #whyChooseUs, #services {
+    line-height: 1.6;
+}
+
+header {
+    background: #005496;
+    color: #ffffff;
     padding: 20px;
-  }
-  
-  footer {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333333;
+}
+
+.offer {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li:before {
+    content: "✓";
+    color: #005496; /* or a color that fits the palette */
+    padding-right: 8px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
-  
-  /* Media query for phone number in the intro */
-  @media (max-width: 768px) {
-    #phoneMobile {
-      font-weight: bold;
-    }
-  }
-   
+}
