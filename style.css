@@ -1,0 +1,39 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  #phone {
+    font-weight: bold;
+  }
+  
+  #intro, #specialOffer, #whyChooseUs, #services {
+    padding: 20px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Media query for phone number in the intro */
+  @media (max-width: 768px) {
+    #phoneMobile {
+      font-weight: bold;
+    }
+  }
+  
